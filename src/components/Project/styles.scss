@@ -1,0 +1,24 @@
+.containerProject {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #dadfe1;
+
+  .containerCarousel {
+    .carousel {
+      .slider-wrapper {
+        .slider {
+          .slide {
+            .projectImage {
+              width: 100%;
+              height: 100%;
+              border-radius: 20px !important;
+              background-color: white !important;
+            }
+          }
+        }
+
+      }
+    }
+
+  }
+}
