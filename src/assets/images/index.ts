@@ -6,4 +6,14 @@ const rsLegendImage = {
   driverApp: require("./rs-legend/driverApp.PNG")
 };
 
-export default { rsLegendImage };
+const skoocAppImage = {
+  skoocApp1: require("./skooc-app/skooc-app-1.png"),
+  skoocApp2: require("./skooc-app/skooc-app-2.png"),
+  skoocApp3: require("./skooc-app/skooc-app-3.png"),
+  skoocApp4: require("./skooc-app/skooc-app-4.png"),
+  skoocApp5: require("./skooc-app/skooc-app-5.png"),
+  skoocApp6: require("./skooc-app/skooc-app-6.png"),
+  skoocApp7: require("./skooc-app/skooc-app-7.png")
+};
+
+export default { rsLegendImage, skoocAppImage };
