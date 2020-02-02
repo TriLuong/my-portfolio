@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "282a88709e779dc326f2a450697cd4f4",
+    "revision": "2c2d66b58939b9ebd626e0c6de4fca58",
     "url": "/my-portfolio/index.html"
   },
   {
-    "revision": "bae201ae66ca735b12b7",
+    "revision": "782f117f4453298e64e2",
     "url": "/my-portfolio/static/css/2.1c4011e7.chunk.css"
   },
   {
-    "revision": "c0fe8f140983406e7fde",
-    "url": "/my-portfolio/static/css/main.eaad6bf7.chunk.css"
+    "revision": "f9542b5c4d7f975d329d",
+    "url": "/my-portfolio/static/css/main.ee884215.chunk.css"
   },
   {
-    "revision": "bae201ae66ca735b12b7",
-    "url": "/my-portfolio/static/js/2.96932496.chunk.js"
+    "revision": "782f117f4453298e64e2",
+    "url": "/my-portfolio/static/js/2.19a5c3f1.chunk.js"
   },
   {
     "revision": "3a5da4106a08e596432e5e2628e1ef8d",
-    "url": "/my-portfolio/static/js/2.96932496.chunk.js.LICENSE"
+    "url": "/my-portfolio/static/js/2.19a5c3f1.chunk.js.LICENSE"
   },
   {
-    "revision": "c0fe8f140983406e7fde",
-    "url": "/my-portfolio/static/js/main.3f48998d.chunk.js"
+    "revision": "f9542b5c4d7f975d329d",
+    "url": "/my-portfolio/static/js/main.6f5f6718.chunk.js"
   },
   {
     "revision": "4184a7eacb7c48bd5c06",
     "url": "/my-portfolio/static/js/runtime-main.4a96037b.js"
+  },
+  {
+    "revision": "7003aae9a2a8808f4d580c58b839fb92",
+    "url": "/my-portfolio/static/media/avatar.7003aae9.jpg"
   },
   {
     "revision": "6b19b27b87776245d5cc607e92573f08",
@@ -38,6 +42,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8ac869dc2f5cacb4883c1c459ea97986",
     "url": "/my-portfolio/static/media/driverApp.8ac869dc.PNG"
+  },
+  {
+    "revision": "b7f0cd194419ec3c655d8686c16a3081",
+    "url": "/my-portfolio/static/media/gif-gram-1.b7f0cd19.png"
+  },
+  {
+    "revision": "e964607c78fbbe04ec45c8779ad5483a",
+    "url": "/my-portfolio/static/media/gif-gram-2.e964607c.png"
+  },
+  {
+    "revision": "81d7d9c5b20e0852ab12294ac1d085a9",
+    "url": "/my-portfolio/static/media/gif-gram-3.81d7d9c5.png"
+  },
+  {
+    "revision": "de82606d76351bd5ca0a29a1d5997b36",
+    "url": "/my-portfolio/static/media/gif-gram-4.de82606d.png"
   },
   {
     "revision": "c36e1c0ed13799acec629ba1cbb6f3ff",
