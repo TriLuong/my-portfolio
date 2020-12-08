@@ -9,6 +9,7 @@ interface ProjectProps {
   features?: [];
   demos?: [];
   technologies?: [];
+  index: number;
 }
 
 class Project extends Component<ProjectProps> {
@@ -19,13 +20,14 @@ class Project extends Component<ProjectProps> {
       content,
       features,
       demos,
-      technologies
+      technologies,
+      index,
     } = this.props;
     return (
       <div className="containerProject mb-3">
-        <div className="mb-3 d-flex">
+        <div className={`mb-3 d-flex ${index % 2 !== 0 && "flex-row-reverse"}`}>
           <div>
-            <div className="mr-3">
+            <div className={`${index % 2 === 0 ? "mr-3" : "ml-3"}`}>
               <Carousel
                 showArrows={false}
                 showStatus={false}
@@ -37,7 +39,7 @@ class Project extends Component<ProjectProps> {
                 width="550px"
                 className="containerCarousel"
               >
-                {photos.map(photo => {
+                {photos.map((photo) => {
                   return (
                     <img
                       src={photo}

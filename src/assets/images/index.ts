@@ -25,4 +25,6 @@ const hubCvImage = {
   hubCv6: require("./hubcv/hubcv_chat.png"),
 };
 
-export default { rsLegendImage, skoocAppImage, hubCvImage };
+export const avatar = require("./avatar.jpeg");
+
+export default { rsLegendImage, skoocAppImage, hubCvImage, avatar };

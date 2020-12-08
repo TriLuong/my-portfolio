@@ -6,6 +6,7 @@ import BasicLayout from "layouts/BasicLayout";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import "assets/scss/_common.scss";
 
 ReactDOM.render(
   <BasicLayout>

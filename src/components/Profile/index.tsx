@@ -17,9 +17,11 @@ class Profile extends Component<ProfileProps> {
           <div className="containerAvatar">
             <img src={photo} alt="avatar" className="avatar" />
           </div>
-          <p>{name}</p>
-          <p>{email}</p>
-          <p>{phone}</p>
+          <div className="info mt-3">
+            <p className="text-profile">{name}</p>
+            <p className="text-profile">{email}</p>
+            <p className="text-profile">{phone}</p>
+          </div>
         </div>
         {/* <div className="d-flex flex-column justify-content-center align-items-start">
           <p>{email}</p>
